@@ -20,6 +20,7 @@ import { JhipsTest6EntityModule } from './entities/entity.module';
 import * as moment from 'moment';
 // jhipster-needle-angular-add-module-import JHipster will add new module here
 import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent, ErrorComponent } from './layouts';
+import { TestComponent } from 'app/layouts/test/test.component';
 
 @NgModule({
   imports: [
@@ -38,7 +39,7 @@ import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent
     JhipsTest6EntityModule,
     JhipsTest6AppRoutingModule
   ],
-  declarations: [JhiMainComponent, NavbarComponent, ErrorComponent, PageRibbonComponent, FooterComponent],
+  declarations: [JhiMainComponent, NavbarComponent, ErrorComponent, PageRibbonComponent, FooterComponent, TestComponent],
   providers: [
     {
       provide: HTTP_INTERCEPTORS,
