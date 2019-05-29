@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.ld.jhips"
+    },
+    "jhipsterVersion": "6.0.1",
+    "applicationType": "monolith",
+    "baseName": "jhipsTest6",
+    "packageName": "com.ld.jhips",
+    "packageFolder": "com/ld/jhips",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YTcwZjE0ZWExY2I5MWQ1Y2RjNDVlOTIzOTc2YjE5Yjk2MDgyNzFkNzg5MWI2MzAxZDZjZmVjZjQyYzVmOWM2NDk5OWUzMDhmZDg1YzhmMmMzZTk4MTQ4N2ViNjZjODE5MjJiNjM3ZTk2YjFiMTAwM2IzZGFjMGIwODFmODQzOTA=",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false
+  }
+}
